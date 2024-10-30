@@ -1,0 +1,88 @@
+.hefe-related-article-wrap.hefe-related-article-style-01 {
+	display: block;
+	width: 100%;
+	padding: 18px;
+	border: 1px solid #d7d7d7;
+	border-radius: 6px;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-content {
+	display: block;
+	width: 100%;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-content-wrap {
+	display: block;
+	width: 100%;
+	margin-bottom: 18px;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-content-wrap:last-child {
+	margin-bottom: 0;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-content-wrap .featured-image {
+	display: block;
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-content-wrap .title-txt {
+	font-size: 24px;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-content-wrap p {
+	
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-button-wrap {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-button-wrap .here-related-article-button {
+	display: inline-block;
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	appearance: none;
+	vertical-align: middle;
+	font-family: inherit;
+	outline: none;
+	text-align: center;
+	padding: 0.75em 1.5em;
+	font-size: 1em;
+	line-height: normal;
+	color: #5f5f5f;
+	background-color: transparent;
+	background-image: none;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: #d7d7d7;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	position: relative;
+	cursor: hand;
+	cursor: pointer;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	border-radius: 6px;
+}
+
+.hefe-related-article-wrap.hefe-related-article-style-01 .hefe-related-article-content-wrap .here-related-article-button:hover {
+	opacity: 0.7;
+	color: #5f5f5f;
+}

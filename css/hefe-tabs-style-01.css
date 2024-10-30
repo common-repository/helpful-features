@@ -1,0 +1,48 @@
+.hefe-tabs-link.hefe-tabs-style-01 {
+	cursor: hand;
+	cursor: pointer;
+	display: block;
+	padding: 9px 18px 10px;
+	border: 1px solid #d7d7d7;
+	border-radius: 6px;
+	margin: 0 0 6px 0;
+	background-color: #f7f7f7;
+}
+
+@media(min-width: 768px){
+	.hefe-tabs-link.hefe-tabs-style-01 {
+		border-radius: 6px 6px 0 0;
+		margin:  0 0 0 6px;
+		display: inline-block;
+	}
+}
+
+.hefe-tabs-link.hefe-tabs-style-01:hover {
+	background-color: #fff;
+}
+
+.hefe-tabs-link.hefe-tabs-style-01.hefe-tabs-active {
+	background-color: #fff;
+}
+
+@media(min-width: 768px){
+	.hefe-tabs-link.hefe-tabs-style-01.hefe-tabs-active {
+		border-bottom: 0;
+		padding-bottom: 11px;
+	}
+}
+
+.hefe-tabs-content.hefe-tabs-style-01 {
+	display: block;
+	width: 100%;
+	padding: 18px;
+	border: 1px solid #d7d7d7;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+@media(min-width: 768px){
+	.hefe-tabs-content.hefe-tabs-style-01 {
+		margin-top: -1px;
+	}
+}

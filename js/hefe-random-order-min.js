@@ -1,0 +1,1 @@
+!function($){$.fn.randomize=function(n){return(n?$(this).find(n):$(this).children()).parent().each(function(){$(this).children(n).sort(function(){return Math.round(Math.random())-.5}).detach().appendTo(this)}),this},$(".hefe-random-order-parent").randomize(".hefe-random-order-child")}(jQuery);

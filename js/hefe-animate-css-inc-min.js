@@ -1,0 +1,1 @@
+!function($){$(".hefe-animate-css-item").appear(function(){var e=$(this),a=e.data("effect"),i=e.data("delay");i?(e.addClass("hefe-animate-hidden"),setTimeout(function(){e.addClass(a+" hefe-animate-visible"),e.removeClass("hefe-animate-hidden")},i)):(e.addClass(a+" hefe-animate-visible"),e.removeClass("hefe-animate-hidden"))})}(jQuery);

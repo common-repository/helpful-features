@@ -1,0 +1,1 @@
+!function($){var e=$(".hefe-sudo-slider-parent.hefe-sudo-slider-parent-default .hefe-sudo-slider-parent-interior").sudoSlider({effect:"",pause:4500,auto:!0,prevNext:!1,numeric:!0,continuous:!0,customLink:".hefe-sudo-slider-default-link",slideCount:1,touch:!0,mouseTouch:!0,moveCount:1})}(jQuery);

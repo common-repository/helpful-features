@@ -1,0 +1,1 @@
+!function($){var e=$(window),t=$(".hefe-sticky-item"),o=t.offset().top-0,p=t.outerHeight(!0);e.scroll(function(){e.scrollTop()>=o?(t.prev(".hefe-sticky-placement").css("padding-top",p),t.css({position:"fixed",top:"0px",left:"0px"})):(t.prev(".hefe-sticky-placement").css("padding-top","0px"),t.css({position:"relative",top:"",left:""}))})}(jQuery);

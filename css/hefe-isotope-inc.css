@@ -1,0 +1,31 @@
+.hefe-isotope-wrap {
+	float: left;
+	width: 100%;
+}
+
+.hefe-isotope-parent.hefe-isotope-parent-default {
+	margin: 0 auto;
+	position: relative;
+}
+
+.hefe-isotope-parent.hefe-isotope-parent-filtered {
+	margin: 0 auto;
+	position: relative;
+}
+
+.hefe-isotope-child {
+	width: 280px;
+}
+
+.hefe-isotope-child-column-width {
+	width: 280px;
+}
+
+.hefe-isotope-gutter-width {
+	width: 30px;
+}
+
+.hefe-isotope-stamp {
+	top: 0;
+	left: 0;
+}

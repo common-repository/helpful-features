@@ -1,0 +1,43 @@
+.hefe-scroll-up-box.hefe-scroll-up-box-automatic {
+	display: none;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-size: 16px !important;
+	position: fixed;
+	right: 21px;
+	bottom: 24px;
+	padding: 0;
+	margin: 0;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	color: #ffffff;
+	cursor: hand;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	z-index: 100;
+	font-weight: bold;
+	text-align: center;
+}
+
+.hefe-scroll-up-box.hefe-scroll-up-box-automatic:hover {
+	opacity: 0.7;
+}
+
+.hefe-scroll-up-box.hefe-scroll-up-box-automatic:before {
+	content: "";
+	background: #000000;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	z-index: -1;
+}
+
+.hefe-scroll-up-box.hefe-scroll-up-box-automatic:before:hover {
+	opacity: 0.7;
+}

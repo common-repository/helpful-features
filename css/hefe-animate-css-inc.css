@@ -1,0 +1,7 @@
+.hefe-animate-hidden {
+	opacity: 0;
+}
+
+.hefe-animate-visible {
+	opacity: 1;
+}

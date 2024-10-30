@@ -1,0 +1,1 @@
+!function($){$(".hefe-search-modal-toggle-in").click(function(){$(".hefe-search-modal-footer").fadeIn()}),$(".hefe-search-modal-toggle-out").click(function(){$(".hefe-search-modal-footer").fadeOut()}),$(document).keyup(function(e){27==e.keyCode&&$(".hefe-search-modal-footer").fadeOut()})}(jQuery);

@@ -1,0 +1,1 @@
+!function($){$("[data-fancybox]").fancybox({})}(jQuery);

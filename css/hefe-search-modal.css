@@ -1,0 +1,212 @@
+.hefe-search-modal-link {
+    display: inline-block;
+}
+.hefe-search-modal-toggle-in {
+    cursor: hand;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.hefe-search-modal-toggle-in:hover {
+    opacity: 0.7;
+}
+.hefe-search-modal-footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: none;
+}
+.hefe-search-modal-footer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.9;
+    z-index: -1;
+}
+.hefe-search-modal-footer .hefe-search-modal-table {
+    height: 100%;
+    color: white;
+    padding: 5% 18%;
+    display: table;
+    width: 100%;
+}
+.hefe-search-modal-footer .hefe-search-modal-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hefe-search-modal-footer .hefe-search-modal-toggle-out {
+    position: absolute;
+    top: 48px;
+    right: 48px;
+    font-size: 48px;
+    line-height: normal;
+    color: white;
+    z-index: 1;
+    cursor: hand;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.hefe-search-modal-footer .hefe-search-modal-toggle-out:hover {
+    opacity: 0.7;
+}
+.hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    border-bottom: 3px solid #fff;
+}
+.hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group input[type=text] {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    line-height: normal;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: none;
+    display: block;
+    width: 100%;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    display: table-cell;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 60px;
+    padding: 0;
+    font-size: 30px;
+    line-height: normal;
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+@media(min-width: 768px) {
+    .hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group input[type=text] {
+        font-size: 42px;
+        height: 80px;
+    }
+}
+.hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group .hefe-search-modal-search-form-input-group-btn {
+    display: table-cell;
+    width: 1%;
+    outline: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group .hefe-search-modal-search-form-input-group-btn .hefe-search-modal-search-form-btn {
+    margin: 0;
+    font: inherit;
+    overflow: visible;
+    outline: none;
+    text-transform: none;
+    -webkit-appearance: button;
+    cursor: pointer;
+    font-family: inherit;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: hand;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    z-index: 2;
+    margin-left: -1px;
+    height: 60px;
+    padding: 0;
+    font-size: 42px;
+    line-height: normal;
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+@media(min-width: 768px) {
+    .hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group .hefe-search-modal-search-form-input-group-btn .hefe-search-modal-search-form-btn {
+        height: 80px;
+    }
+}
+.hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group .hefe-search-modal-search-form-input-group-btn .hefe-search-modal-search-form-btn:hover {
+    opacity: 0.7;
+}
+.hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group .hefe-search-modal-search-form-input-group-btn .hefe-search-modal-search-form-btn .hefe-search-modal-search-form-search-icon {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-style: normal;
+    text-align: left;
+    text-indent: -9999px;
+    direction: ltr;
+    border-radius: 50%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    margin: 3px 0px 5px 4px;
+    border: 3px solid;
+}
+.hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group .hefe-search-modal-search-form-input-group-btn .hefe-search-modal-search-form-btn .hefe-search-modal-search-form-search-icon:before {
+    content: '';
+    pointer-events: none;
+    box-shadow: inset 0 0 0 30px;
+    border-radius: 0 0 1px 1px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 3px;
+    height: 11px;
+    top: 18px;
+}
+.hefe-search-modal-footer .hefe-search-modal-search-form .hefe-search-modal-search-form-input-group .hefe-search-modal-search-form-input-group-btn .hefe-search-modal-search-form-btn .hefe-search-modal-search-form-search-icon:after {
+    content: '';
+    pointer-events: none;
+}
